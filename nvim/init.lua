@@ -6,6 +6,7 @@ function ColorMyPencils()
 end
 
 -- vim.cmd([[ colorscheme gruvbox ]])
-vim.cmd([[ colorscheme rose-pine ]])
+-- vim.cmd([[ colorscheme rose-pine ]])
+vim.cmd([[ colorscheme vague ]])
 
 ColorMyPencils()
