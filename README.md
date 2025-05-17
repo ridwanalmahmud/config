@@ -23,9 +23,9 @@ pacman -S man gcc neovim git tmux zsh github-cli fzf neofetch -y
 ## git conf
 
 ```
-git config --global user.name "ridwanalmahmud"
+git config --global user.name "<username>"
 
-git config --global user.email "ridwanalmahmud107@gmail.com"
+git config --global user.email "<email>"
 
 git config --global init.defaultBranch "master"
 ```
@@ -41,9 +41,6 @@ git clone https://github.com/ridwanalmahmud/config.git
 - oh my zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
