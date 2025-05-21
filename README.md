@@ -17,7 +17,7 @@ curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/patched
 
 - command line tools
 ```
-pacman -S man gcc neovim git tmux zsh github-cli fzf neofetch -y
+pacman -S man clang neovim git tmux zsh github-cli fzf neofetch cmake make -y
 ```
 
 ## git conf
