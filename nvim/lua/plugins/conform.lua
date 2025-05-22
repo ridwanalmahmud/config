@@ -9,7 +9,5 @@ return {
                 c = { "clang-format" },
             }
         })
-
-        vim.keymap.set("n", "<leader>ff", vim.lsp.buf.format, {})
     end
 }

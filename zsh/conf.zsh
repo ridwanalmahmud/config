@@ -105,3 +105,5 @@ source $ZSH/oh-my-zsh.sh
 
 set -o vi
 export MANPAGER='nvim +Man!'
+
+bindkey -s ^f "~/.config/scripts/tmux-sessionizer\n"
