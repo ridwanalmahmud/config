@@ -8,6 +8,7 @@ return {
                 go = { "gofmt" }
             }
         })
+
+        vim.keymap.set("n", "<leader>ff", vim.lsp.buf.format, {})
     end
 }
-
