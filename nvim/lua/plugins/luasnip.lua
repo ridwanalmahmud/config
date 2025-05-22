@@ -25,7 +25,7 @@ return {
                 t({ "CC=gcc" }),
                 t({ "", "ICDIRS=-I" }),
                 t({ "", "OPT=-O1" }),
-                t({ "", "CFLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT)" }),
+                t({ "", "CFLAGS=-Wall -std=c99 -Wextra -g $(INCDIRS) $(OPT)" }),
                 t({ "", "" }),
                 t({ "", "CFILES=src/" }),i(1, "main.c"),
                 t({ "", "BINARY=bin/" }),i(2, "main"),
